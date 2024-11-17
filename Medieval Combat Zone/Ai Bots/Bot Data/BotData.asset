@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b319b38cf28e864c85879fdae2b9293, type: 3}
+  m_Name: BotData
+  m_EditorClassIdentifier: 
+  rotationSpeed: 10
+  agentSpeed: 10
+  agentStopDist: 10
+  timeBetweenShots: 0.25
+  currentDelayShot: 0
+  reloadTime: 2
+  bulletPrefab:
+  - {fileID: 1591624392545905776, guid: 909ec4e6f47afbb4abd7f5da271a49ee, type: 3}
+  - {fileID: 6019344789223433160, guid: 850e07aada61b1e44abfa14d2b9a6160, type: 3}
+  - {fileID: 1002611606639685104, guid: 8a3940f1bb0ae7747be3ad87e20e7440, type: 3}
+  - {fileID: 6019344789223433160, guid: c55a57e898f0cb1448008caf5eb44430, type: 3}
+  bulletForce: 100
+  magazineSize: 1
+  shootOffset: {x: 0, y: 0, z: 0}
