@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffed469233082f74ebb2a9cd2871fb63, type: 3}
+  m_Name: Effect Data
+  m_EditorClassIdentifier: 
+  bulletDamage: 10
+  lifetime: 5
+  groundCheckDistance: 5
+  elementalBulletPrefab:
+  - {fileID: 4334538217450151054, guid: 7f06f641fefca3445908b2cc4ebd0ff8, type: 3}
+  - {fileID: 4110195246514881014, guid: adc3e20340583f348b84c8779215011b, type: 3}
+  - {fileID: 187855282822934061, guid: 6bb1584919aa1ea4a834b4c5f96ce9a8, type: 3}
+  - {fileID: 5453880812904267005, guid: 2ce6e6fa486f37b47b412e225278a2ad, type: 3}
+  bulletSounds:
+  - name: Fire Bullet
+    clips:
+    - {fileID: 8300000, guid: c85ba4ee3d1dc4b40b6b142d52d85657, type: 3}
+    - {fileID: 8300000, guid: 9f480b4d7171fc84792e618a9e81e4c0, type: 3}
+  - name: Water Bullet
+    clips:
+    - {fileID: 8300000, guid: 8dd944325099b424391168af2de06328, type: 3}
+  - name: Earth Bulltet
+    clips:
+    - {fileID: 8300000, guid: b643a68c29b73b2459659aff4cc55bfc, type: 3}
+  - name: Air Bullet
+    clips:
+    - {fileID: 8300000, guid: 6cf9345cc05e4534c8bf664a92d26675, type: 3}
+  impactEffects:
+  - name: Fire Bullet
+    impactEffect:
+    - {fileID: 5669746477810102545, guid: c74ba69978a96cf45bf4320ba8a913cb, type: 3}
+    - {fileID: 3926500647033089703, guid: 871e2756ccf98224f886f34f958fca35, type: 3}
+    - {fileID: 2634931209970445218, guid: 9646813f1a84b9c4dbce2815c6c068ce, type: 3}
+    - {fileID: 3724099442450904059, guid: 543b169e9060fd344b5498b9e9177b3d, type: 3}
+  - name: Water Bullets
+    impactEffect:
+    - {fileID: 3926500647033089703, guid: 871e2756ccf98224f886f34f958fca35, type: 3}
+    - {fileID: 8851919988916091860, guid: cd7ee6aeb6ff22d4185264da8cd388ec, type: 3}
+    - {fileID: 2434555900804306419, guid: c07632b765de9b24fa20082bb0327bff, type: 3}
+    - {fileID: 3542512883756590923, guid: 40527e13b5fdfaa42a84e020b4bc0f9a, type: 3}
+  - name: Earth Bullet
+    impactEffect:
+    - {fileID: 2634931209970445218, guid: 9646813f1a84b9c4dbce2815c6c068ce, type: 3}
+    - {fileID: 2434555900804306419, guid: c07632b765de9b24fa20082bb0327bff, type: 3}
+    - {fileID: 2977851333405430298, guid: 2b08e7220c18e0243a1c8205f0dc6cf7, type: 3}
+    - {fileID: 919132149155446097, guid: 818934524fc925745aaf1f90200a53aa, type: 3}
+  - name: Air Bullet
+    impactEffect:
+    - {fileID: 3724099442450904059, guid: 543b169e9060fd344b5498b9e9177b3d, type: 3}
+    - {fileID: 3542512883756590923, guid: 40527e13b5fdfaa42a84e020b4bc0f9a, type: 3}
+    - {fileID: 919132149155446097, guid: 818934524fc925745aaf1f90200a53aa, type: 3}
+    - {fileID: 8322136614580805107, guid: 0caba87eba600af48b22934706cfad70, type: 3}
+  impactSounds:
+  - name: Fire
+    clips:
+    - {fileID: 8300000, guid: 69c17144eed847749853324683f3c91e, type: 3}
+    - {fileID: 8300000, guid: 40ae76c9e2ef3be428b1011eb701eedc, type: 3}
+    - {fileID: 8300000, guid: 1a4ecbffd6dd5a345a3f5a4dab173273, type: 3}
+    - {fileID: 8300000, guid: cd64c6ac704fce54980bfe9c8b110fbe, type: 3}
+  - name: Water
+    clips:
+    - {fileID: 8300000, guid: 40ae76c9e2ef3be428b1011eb701eedc, type: 3}
+    - {fileID: 8300000, guid: af8bcec597a8fa440b6df7c3020ec1bf, type: 3}
+    - {fileID: 8300000, guid: e8ef22c9d7d104641b62e16a75f4fe70, type: 3}
+    - {fileID: 8300000, guid: bc2b6581b67a0f249ae476dc4e961884, type: 3}
+  - name: Earth
+    clips:
+    - {fileID: 8300000, guid: 1a4ecbffd6dd5a345a3f5a4dab173273, type: 3}
+    - {fileID: 8300000, guid: e8ef22c9d7d104641b62e16a75f4fe70, type: 3}
+    - {fileID: 8300000, guid: 2b74ca3966a7cbb45a703a8472cc3420, type: 3}
+    - {fileID: 8300000, guid: c15e30221968cad44b2b62eb3817e9bb, type: 3}
+  - name: Air
+    clips:
+    - {fileID: 8300000, guid: cd64c6ac704fce54980bfe9c8b110fbe, type: 3}
+    - {fileID: 8300000, guid: bc2b6581b67a0f249ae476dc4e961884, type: 3}
+    - {fileID: 8300000, guid: be030ad1912e6c741b0aec07db967822, type: 3}
+    - {fileID: 8300000, guid: df8c88d8b1f2aec46be17df2c2e203cd, type: 3}
+  groundImpactEffect:
+  - {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  groundImpactSounds:
+  - {fileID: 8300000, guid: 40ae76c9e2ef3be428b1011eb701eedc, type: 3}
+  - {fileID: 8300000, guid: 49b2bf9f12aa6354eb49bdfc3d2bf284, type: 3}
+  - {fileID: 8300000, guid: 107f58b64c00f7c4c82fa927c5156089, type: 3}
+  - {fileID: 8300000, guid: 3905be4cd6b321549a989d6d62358184, type: 3}

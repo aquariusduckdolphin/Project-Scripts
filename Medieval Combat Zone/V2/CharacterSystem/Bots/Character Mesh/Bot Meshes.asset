@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2787e2c32be2f4a9fddebc16eea7d6, type: 3}
+  m_Name: Bot Meshes
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: Wizard
+    characterMesh: {fileID: 7901310902145272353, guid: 04497068379b1194ebe5af5fdc27cfb1, type: 3}
+    characterAnimationController: {fileID: 9100000, guid: db85782e5f6b49e498c8d14c60c1661c, type: 2}
+    attackType: 2
+    capsuleSizes: {x: 0.26, y: 2}
+  - characterName: Witch
+    characterMesh: {fileID: 3519113253062038603, guid: 579fcae6b26950c4babf7de2bcab96c2, type: 3}
+    characterAnimationController: {fileID: 9100000, guid: 3bcc9f22503001a4a9708fc16c130945, type: 2}
+    attackType: 2
+    capsuleSizes: {x: 0.26, y: 2}
+  - characterName: Knight
+    characterMesh: {fileID: 4441604440178189043, guid: c9dea2fa4a62f664a8da98bd37cb55e9, type: 3}
+    characterAnimationController: {fileID: 9100000, guid: 6fd8ab640f25ab547993797d1eb94504, type: 2}
+    attackType: 1
+    capsuleSizes: {x: 0.26, y: 2}
+  - characterName: Assassin
+    characterMesh: {fileID: 5454010503051726164, guid: dfa2dfbe8424e6c4397b3cda3228cd72, type: 3}
+    characterAnimationController: {fileID: 9100000, guid: d323443d829c84749a06f311475ea86f, type: 2}
+    attackType: 1
+    capsuleSizes: {x: 0.26, y: 2}

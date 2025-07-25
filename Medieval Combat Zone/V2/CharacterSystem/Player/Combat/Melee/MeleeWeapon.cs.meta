@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec3bfc1d72f8e5c4fbfbdb5041c2b806
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bulletData: {fileID: 11400000, guid: e67139dcea424204eba65bb740bd7c4b, type: 2}
+  - meshRender: {instanceID: 0}
+  - swordTrigger: {instanceID: 0}
+  - anim: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b319b38cf28e864c85879fdae2b9293, type: 3}
+  m_Name: BotData
+  m_EditorClassIdentifier: 
+  rotationSpeed: 10
+  agentSpeed: 5
+  agentStopDist: 5
+  timeBetweenShots: 0.25
+  currentDelayShot: 0
+  reloadTime: 2
+  bulletForce: 100
+  magazineSize: 1
+  shootOffset: {x: 0, y: 0, z: 0}
+  bulletPrefab:
+  - {fileID: 4334538217450151054, guid: 7f06f641fefca3445908b2cc4ebd0ff8, type: 3}
+  - {fileID: 4110195246514881014, guid: adc3e20340583f348b84c8779215011b, type: 3}
+  - {fileID: 1398628056033934863, guid: eb656b12085224e4ebc45c168b0b1917, type: 3}
+  - {fileID: 5453880812904267005, guid: 2ce6e6fa486f37b47b412e225278a2ad, type: 3}
+  climbtPoints:
+    serializedVersion: 2
+    m_Bits: 32768
+  retreatPoints:
+    serializedVersion: 2
+    m_Bits: 65536
